@@ -12,11 +12,25 @@ public class SwapingTwoNumber {
 		b=t;
 		*/
 		//Second logic
-		a=a+b;
+		/*a=a+b;
 		b=a-b;
 		a=a-b;
 		System.out.println("After Swaping the value are.."+a+" "+b);
-		
+		*/
 		//Third logic 
+		/*a=a*b;
+		b=a/b;
+		a=a/b;
+		System.out.println("After Swaping the value are.."+a+" "+b);
+		*/
+		//Fourth logic Bitwise
+		/*a=a^b;
+		b=a^b;
+		a=a^b;
+		System.out.println("After Swaping the value are.."+a+" "+b);
+		*/
+		//5th Logic 
+		b=a+b-(a=b);
+		System.out.println("After Swaping the value are.."+a+" "+b);
 	}
 }
